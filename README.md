@@ -19,7 +19,7 @@ This template should help get you started developing with Vue 3 and Typescript i
 ## Try it now!
 
 ```bash
-npx degit zynth17/vitailse <app-name>
+npx degit mootah/vite-template <app-name>
 cd <app-name>
 yarn
 ```
