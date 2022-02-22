@@ -1,6 +1,7 @@
+import { resolve } from "path";
 import { defineConfig } from "vite";
 import Vue from "@vitejs/plugin-vue";
-import { resolve } from "path";
+import Pug from "vite-plugin-pug"
 import AutoImport from "unplugin-auto-import/vite";
 import Pages from "vite-plugin-pages";
 import Layouts from "vite-plugin-vue-layouts";
@@ -11,6 +12,7 @@ import IconsResolver from "unplugin-icons/resolver";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
+    Pug(),
     AutoImport({
       imports: ["vue", "vue-router", "@vueuse/head", "@vueuse/core"],
       dts: "src/auto-imports.d.ts",

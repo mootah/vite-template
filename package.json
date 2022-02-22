@@ -13,6 +13,7 @@
   },
   "devDependencies": {
     "@iconify/json": "^2.1.2",
+    "@prettier/plugin-pug": "^1.19.2",
     "@types/node": "^17.0.18",
     "@vitejs/plugin-vue": "^2.2.0",
     "@vueuse/head": "^0.7.5",
@@ -27,6 +28,7 @@
     "unplugin-vue-components": "^0.17.18",
     "vite": "^2.8.0",
     "vite-plugin-pages": "^0.20.2",
+    "vite-plugin-pug": "^0.3.0",
     "vite-plugin-vue-layouts": "^0.6.0",
     "vite-ssg": "^0.17.10",
     "vue-router": "^4.0.12",
